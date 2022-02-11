@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Russo One" ,  sans-serif;
+}
+
+body {
+    background: #22539c;
+}
+
+.top-logotype-logo {
+    fill: aliceblue;
+    display: block;
+    margin:1rem auto;
+    height: 85px;
+}
+.btn {
+    padding: .5rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    opacity: .9;
+    transition: .3s;
+    margin: .5rem;
+    width: 100%;
+}
+.btn:hover {
+    opacity: 1;
+    transform: translateY(1px);
+}
+.links-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+}
